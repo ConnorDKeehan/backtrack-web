@@ -46056,7 +46056,7 @@
           switch ($async$goto) {
             case 0:
               // Function start
-              url = A.Uri_parse("http://localhost:5032/MainGameScreen/GetAllGames");
+              url = A.Uri_parse("https://backtrack-d6bdb4g2hddvhhhb.australiaeast-01.azurewebsites.net/MainGameScreen/GetAllGames");
               $async$goto = 3;
               return A._asyncAwait(A.getAccessToken(), $async$getAllNewGames);
             case 3:
@@ -46097,7 +46097,7 @@
           switch ($async$goto) {
             case 0:
               // Function start
-              url = A.Uri_parse("http://localhost:5032/GameRound/GetAllPlaylists");
+              url = A.Uri_parse("https://backtrack-d6bdb4g2hddvhhhb.australiaeast-01.azurewebsites.net/GameRound/GetAllPlaylists");
               $async$goto = 3;
               return A._asyncAwait(A.getAccessToken(), $async$getAllPlaylists);
             case 3:
@@ -49073,7 +49073,7 @@
             case 5:
               // returning from await.
               accessToken = $async$result;
-              url = A.Uri_parse("http://localhost:5032/Auth/RefreshTokens");
+              url = A.Uri_parse("https://backtrack-d6bdb4g2hddvhhhb.australiaeast-01.azurewebsites.net/Auth/RefreshTokens");
               t1 = type$.String;
               t2 = A.LinkedHashMap_LinkedHashMap$_empty(t1, t1);
               t2.$indexSet(0, "Content-Type", "application/json");
@@ -49116,7 +49116,7 @@
           switch ($async$goto) {
             case 0:
               // Function start
-              url = A.Uri_parse("http://localhost:5032/Auth/Login");
+              url = A.Uri_parse("https://backtrack-d6bdb4g2hddvhhhb.australiaeast-01.azurewebsites.net/Auth/Login");
               $async$goto = 3;
               return A._asyncAwait(A.getPushNotificationToken(), $async$login);
             case 3:
@@ -49157,7 +49157,7 @@
           switch ($async$goto) {
             case 0:
               // Function start
-              url = A.Uri_parse("http://localhost:5032/Auth/Register");
+              url = A.Uri_parse("https://backtrack-d6bdb4g2hddvhhhb.australiaeast-01.azurewebsites.net/Auth/Register");
               t1 = type$.String;
               headers = A.LinkedHashMap_LinkedHashMap$_literal(["Content-Type", "application/json"], t1, t1);
               t1 = A.LinkedHashMap_LinkedHashMap$_empty(t1, t1);
@@ -178125,7 +178125,7 @@
               // returning from await.
               httpConnectionOptions = $async$temp1.HttpConnectionOptions$(new $async$temp2.SignalRService_start_closure($async$result), null);
               connection = new A.HttpConnection(null);
-              connection.baseUrl = "http://localhost:5032/gamehub";
+              connection.baseUrl = "https://backtrack-d6bdb4g2hddvhhhb.australiaeast-01.azurewebsites.net/gamehub";
               connection.__HttpConnection__options_A = httpConnectionOptions;
               connection.__HttpConnection__httpClient_A = new A.WebSupportingHttpClient(null);
               connection._connectionState = B.ConnectionState_2;
@@ -189478,7 +189478,7 @@
     _lazyFinal($, "PlatformInterface__instanceTokens", "$get$PlatformInterface__instanceTokens", () => A.Expando$(type$.Object));
     _lazyFinal($, "SignInWithApplePlatform__token", "$get$SignInWithApplePlatform__token", () => new A.Object());
     _lazy($, "TextMessageFormat_recordSeparator", "$get$TextMessageFormat_recordSeparator", () => A.String_String$fromCharCode(30));
-    _lazyFinal($, "apiClient", "$get$apiClient", () => A.Swagger_create(new A.BearerAuthenticator(), A.Uri_parse("http://localhost:5032")));
+    _lazyFinal($, "apiClient", "$get$apiClient", () => A.Swagger_create(new A.BearerAuthenticator(), A.Uri_parse("https://backtrack-d6bdb4g2hddvhhhb.australiaeast-01.azurewebsites.net")));
     _lazyFinal($, "navigatorKey", "$get$navigatorKey", () => A.GlobalKey_GlobalKey(null, type$.NavigatorState));
     _lazyFinal($, "signalR", "$get$signalR", () => new A.SignalRService());
     _lazy($, "AppColors_submitButtonColor", "$get$AppColors_submitButtonColor", () => {
