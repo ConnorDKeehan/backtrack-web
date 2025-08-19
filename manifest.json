@@ -1,6 +1,6 @@
 {
-    "name": "songguessgame",
-    "short_name": "songguessgame",
+    "name": "songguessgamefront",
+    "short_name": "songguessgamefront",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
@@ -33,9 +33,3 @@
         }
     ]
 }
-
-
-
-
-
-
